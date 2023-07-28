@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+font-size: 50px;
+}
+
+header{
+    background-color: rgb(37, 85, 67);
+}
+
+nav li{
+    display:inline;
+    margin-right:19px;
+}
+
+nav a:hover {
+       color: rgb(141, 129, 129);
+       text-decoration:underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(141, 129, 129);
+    font-weight: bold;
+    font-size: 42.5px;
+    text-decoration: none;
+}
+
+nav{
+    position:absolute;
+    top: 100px;
+    right: 10px;
+}
+
+.caixa{
+    position:relative;
+    margin-top:0px auto;
+
+}
+
+.logo{
+    width: 12%;
+    border-color: rgb(119, 28, 28);
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 30px;
+    width: 200px;
+}
+
+header {
+    background-color: rgb(119, 28, 28);
+}
+
+ul{
+    margin-left: 25px;
+    font-style:normal;
+    color: rgb(36, 36, 109);
+
+}
+
+.servicos {
+    width: 1440;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid rgb(141, 129, 129);
+    border-radius: 10px;
+
+}
+
+.servicos li:hover{
+    border-color: red; 
+}
+
+.servicos li:hover h2{
+font-size: 34px;
+color: red;
+}
+
+.servicos li:active {
+    border-color: rgb(36, 36, 109);
+    border-width: 4px;
+}
+
+.servicos img{
+    width: 330px;
+    height: 200px;
+}
+
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.preco{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+text-align: center;
+}
+
+.rodape{
+background-color: rgb(141, 129, 129);
+padding: 40px;
+}
+
+footer img {
+width: 10%;
+}
+
+.copyright {
+font-size: 40px;
+margin: 20px 0;
+}
