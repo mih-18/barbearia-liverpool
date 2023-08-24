@@ -2,14 +2,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">=-
+        <link rel="stylesheet" href="style.css">
         <title>BARBEARIA LIVERPOOL</title>
     </head>
     
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="logo.jpg" class="logo" alt="Logo da Barbearia"> </h1>
+                <h1><img src="IMAGENS/logo.jpg" class="logo" alt="Logo da Barbearia"> </h1>
                 <h1>BARBEARIA LIVERPOOL</h1>
                 <nav>
                     <ul>
@@ -34,43 +34,55 @@
                  <label for="mensagem">Mensagem</label>
                  <textarea cols="70" rows="10" id="mensagem" class="input-padrao" ></textarea>
 
-                 <div>
-                    <p>Como prefere o nosso contato?</p>
+                 <fieldset>
+                    <legend> Como prefere o nosso contato? </legend>
                     <label for="radio-email">
-                        <input type="radio" name="contato" value="email" id="radio-email"> 
-                        E-mail
-                     </label>
+                        <input type="radio" name="contato" value="email" id="radio-email"> E-mail </label>
 
-                     <label for="radio-telefone">
-                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                        Telefone
-                    </label>
+                        <label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone </label>
 
                     <label for="radio-whatsapp">
-                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-                        Whatsapp
-                    </label>
-                 </div>
-                 <div>
-                    <p>Qual horário você prefere ser atendido (a)?</p>
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp </label>
+                    </fieldset>
+
+                    <fieldset>
+                    <legend>Qual horário você prefere ser atendido (a)?</legend>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
+            </fieldset>
 
-
-                 </div>
                  <label class="checkbox">
-                    <input type="checkbox" checked>
-                    Gostaria de receber as novidades da Barbearia LFC por E-mail?
+                    <input type="checkbox" checked> Gostaria de receber as novidades da Barbearia LFC por E-mail?
+
                  </label>
-                 <input type="submit" value="ENVIAR FORMULÁRIO">
+                 <input type="submit" value="ENVIAR FORMULÁRIO" class="enviar">
             </form>
+            <table>
+                <thead>
+                    <tr>
+                        <td>DIA</td>
+                        <td>HORÁRIO</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> SEG À SEX.</td>
+                        <td>9H ÀS 18H</td>
+                    </tr>
+                    <tr>
+                        <td>SÁBADOS</td>
+                        <td>13H ÀS 18H</td>
+                        </tr>
+                </tbody>
+            </table>
         </main>
         <footer class="rodape">
-            <img src="logo.jpg" class="logo">
+            <img src="IMAGENS/logo.jpg" class="logo">
             <p class="Copyright">&copy;Copyright. Por Lethicia & Miriam - 2023</p>
         </footer>
     </body>
-</html>
+</html
