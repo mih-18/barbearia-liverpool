@@ -60,6 +60,8 @@ ul{
 
 }
 
+/*CSS DOS SERVIÇOS*/
+
 .servicos {
     width: 1440;
     margin: 0 auto;
@@ -197,8 +199,9 @@ td, th{
 
 .titulo-principal{
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     margin: 0 0 1em;
+    clear: left;
 }
 
 .imagem{
@@ -212,4 +215,6 @@ td, th{
 
 .imagem-principal{
     width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
